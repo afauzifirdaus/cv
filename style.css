@@ -1,0 +1,22 @@
+body {
+  height: 00px;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #e2edff;
+  height: 500px;
+}
+.project {
+  position: relative;
+  background-color: #e2edff;
+}
+.project::after {
+  position: absolute;
+  opacity: 0.5;
+}
+.project h2 {
+  margin-top: 50px;
+}
+.img {
+  padding-top: 50px;
+}
